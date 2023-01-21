@@ -180,7 +180,9 @@ h1{
 ```
 
 ## OUTPUT:
-![OUTPUT](./outt.png)
+![OUTPUT](./outt1.png)
+
+![OUTPUT](./outt2.png)
 
 ## HTML VALIDATOR:
 ![OUTPUT](./validd.png)

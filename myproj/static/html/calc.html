@@ -1,4 +1,4 @@
-Construct a JavaScript program to implement a simple calculator.
+ Construct a JavaScript program to implement a simple calculator.
 
 <!DOCTYPE html>
 <html>
@@ -35,6 +35,12 @@ Construct a JavaScript program to implement a simple calculator.
                 <td colspan="4">
                     <input type="text" id="result">
                 </td>
+            </tr>
+              <tr>
+                <td><input type="button" value="(" onclick="result.value+='('"/></td>
+                <td><input type="button" value=")" onclick="result.value+=')'"/></td>
+                <td><input type="button" value="C" onclick="result.value+='C'"/></td>
+                <td><input type="button" value="%" onclick="result.value+='%'"/></td>
             </tr>
             <tr>
                 <td><input type="button" value="1" onclick="result.value+='1'"/></td>
