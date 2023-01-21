@@ -37,6 +37,7 @@ Publish the website in the given URL.
 ## PROGRAM :
 ```
 calc.html
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -72,6 +73,12 @@ calc.html
                 <td colspan="4">
                     <input type="text" id="result">
                 </td>
+            </tr>
+              <tr>
+                <td><input type="button" value="(" onclick="result.value+='('"/></td>
+                <td><input type="button" value=")" onclick="result.value+=')'"/></td>
+                <td><input type="button" value="C" onclick="result.value+='C'"/></td>
+                <td><input type="button" value="%" onclick="result.value+='%'"/></td>
             </tr>
             <tr>
                 <td><input type="button" value="1" onclick="result.value+='1'"/></td>
